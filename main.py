@@ -5,6 +5,9 @@ import mediapipe as mp
 # reading webcam input
 cap = cv2.VideoCapture(0)
 
+# video as input
+#cap = cv2.VideoCapture(vidoefile)
+
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands()
